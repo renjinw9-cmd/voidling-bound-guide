@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+
+Sitemap: https://voidling-bound-guide.vercel.app/sitemap.xml
