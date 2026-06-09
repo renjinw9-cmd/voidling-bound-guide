@@ -44,7 +44,7 @@ voidling-bound-guide/
 4. 选择你刚上传的仓库 `voidling-bound-guide`
 5. 直接点 **Deploy**（Vercel 会自动识别这是静态 HTML 站）
 6. 等待 30 秒，部署完成！你会得到一个免费域名：
-   - 格式：`voidling-bound-guide.vercel.app`
+   - 格式：`voidling-bound-guide.netlify.app`
 
 ### 第 4 步：验证网站（1 分钟）
 1. 在浏览器打开 Vercel 给你的 `.vercel.app` 地址

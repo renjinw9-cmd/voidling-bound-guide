@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /css/
 
-Sitemap: https://voidling-bound-guide.vercel.app/sitemap.xml
+Sitemap: https://voidling-bound-guide.netlify.app/sitemap.xml
