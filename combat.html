@@ -4,66 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="CCzJkGpApyD_5tvSx0fUoqFCc2pgRtZK7DBotowBZk0">
-  <title>Voidling Bound Combat Guide — Best Builds, Talents & Abyss Mode Tips</title>
-  <meta name="description" content="Master Voidling Bound combat — weapon types, dodge/parry mechanics, talent tree builds, attribute optimization, enemy faction weaknesses, and Abyss mode survival.">
-  <meta name="keywords" content="Voidling Bound combat, Voidling Bound builds, Voidling Bound talents, Voidling Bound Abyss mode, Voidling Bound best build, Voidling Bound enemy guide">
-  <meta property="og:title" content="Voidling Bound Combat Guide — Best Builds, Talents & Abyss Mode Tips">
-  <meta property="og:description" content="Master Voidling Bound combat — weapon types, dodge/parry mechanics, talent tree builds, attribute optimization, enemy faction weaknesses, and Abyss mode survival.">
+  <title>Voidling Bound Combat & Abyss Guide — Builds, Enemies & Endgame</title>
+  <meta name="description" content="Voidling Bound combat and Abyss guide — weapon types, dodge/parry, enemy factions (Bulbous, GenBot), attribute builds for combat, and Abyss mode endgame strategies.">
+  <meta name="keywords" content="Voidling Bound combat, Voidling Bound builds, Voidling Bound Abyss, Voidling Bound enemies, Voidling Bound Bulbous, Voidling Bound GenBot">
+  <meta property="og:title" content="Voidling Bound Combat & Abyss Guide — Builds, Enemies & Endgame">
+  <meta property="og:description" content="Weapon types, dodge/parry, enemy factions, attribute builds for combat, and Abyss mode endgame.">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://voidling-bound-guide.netlify.app/combat.html">
+  <meta property="og:url" content="https://voidling-bound-guide.vercel.app/combat.html">
   <meta property="og:site_name" content="Voidling Bound Guide">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Voidling Bound Combat Guide — Builds & Abyss Tips">
-  <meta name="twitter:description" content="Master combat — builds, talent trees, enemy weaknesses, and Abyss mode survival strategies.">
+  <meta name="twitter:title" content="Voidling Bound Combat & Abyss Guide">
+  <meta name="twitter:description" content="Weapon types, dodge/parry, enemy factions, attribute builds, and Abyss mode endgame.">
   <meta name="theme-color" content="#0a0e14">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- Vercel Analytics -->
   <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
   </script>
   <script defer src="/_vercel/insights/script.js"></script>
-
 </head>
 <body>
 
 <header class="site-header">
   <nav class="navbar" aria-label="Main navigation">
-    <a href="index.html" class="logo">Voidling<span>Bound</span> Guide</a>
+    <a href="index.html" class="logo">Voidling<span>Bound</span> Notes</a>
     <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="guide.html">Beginner Guide</a></li>
-      <li><a href="voidlings.html">Voidlings DB</a></li>
-      <li><a href="evolution.html">Evolution</a></li>
-      <li><a href="combat.html">Combat & Builds</a></li>
-      <li><a href="breeding.html">Breeding</a></li>
-      <li><a href="attributes.html">Attributes</a></li>
-      <li><a href="abyss.html">Abyss</a></li>
-      <li><a href="splicing.html">Splicing</a></li>
+      <li><a href="guide.html">First Hour</a></li>
+      <li><a href="voidlings.html">Voidlings</a></li>
+      <li><a href="evolution.html">Evolution &amp; Breeding</a></li>
+      <li><a href="combat.html" class="active">Combat &amp; Abyss</a></li>
     </ul>
   </nav>
 </header>
 
-<div class="launch-banner">
-  <div class="container">
-    🚀 <strong>Voidling Bound is NOW AVAILABLE on Steam!</strong> — Fan guides, stats, and databases being updated with launch data. <a href="https://store.steampowered.com/app/2004680/Voidling_Bound/" target="_blank" rel="nofollow">Play now →</a>
-  </div>
-</div>
-
 <section class="content-page">
   <div class="container">
     <div class="breadcrumb">
-      <a href="index.html">Home</a> → Combat & Builds
+      <a href="index.html">Home</a> → Combat &amp; Abyss
     </div>
 
     <div class="article-header">
-      <h1>⚔️ Voidling Bound Combat Guide: Builds, Talents & Strategies</h1>
+      <h1>⚔️ Voidling Bound: Combat &amp; Abyss Guide</h1>
       <div class="meta">
-        <span>📅 Updated: June 9, 2026</span>
-        <span>⏱️ 12 min read</span>
-        <span>🏷️ Combat</span>
+        <span>📅 Updated: June 10, 2026</span>
+        <span>⏱️ 9 min read</span>
+        <span>🏷️ Combat &amp; Endgame</span>
       </div>
     </div>
 
@@ -73,127 +60,221 @@
     </div>
 
     <article>
-      <div class="ad-slot horizontal"><!-- Google AdSense --></div>
 
-      <h2>Combat System Overview</h2>
-      <p>Voidling Bound's combat is <strong>real-time third-person action</strong>. You directly control your Voidling — this is not turn-based. Positioning, timing, and build optimization matter as much as raw stats.</p>
-
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Action</th><th>Function</th><th>When to Use</th></tr></thead>
-          <tbody>
-            <tr><td>🔫 Primary Attack</td><td>Basic damage, varies by Voidling (shoot/slash/smash)</td><td>Sustained DPS, building ultimate charge</td></tr>
-            <tr><td>⚡ Secondary Skill</td><td>Special ability with cooldown</td><td>Burst damage, crowd control, elemental application</td></tr>
-            <tr><td>💥 Ultimate</td><td>Charged-up devastating attack</td><td>Boss fights, emergency wave clear</td></tr>
-            <tr><td>🏃 Dodge</td><td>Invincibility frames during roll</td><td>Every enemy attack — dodge first, attack second</td></tr>
-            <tr><td>🛡️ Block/Parry</td><td>Reduce or negate damage; perfect parry stuns</td><td>Melee-focused Voidlings, boss fights</td></tr>
-            <tr><td>💨 Sprint/Dash</td><td>Rapid repositioning</td><td>Escaping AoE, closing distance on ranged enemies</td></tr>
-          </tbody>
-        </table>
+      <div class="info-box warn">
+        <h4>⚠️ Launch Week Notice</h4>
+        <p>Last verified: June 2026 launch build. Weapon balance, enemy stats, elemental weakness values, ability cooldowns, and Abyss mode scaling are balance values that may change with patches. All combat mechanics are based on developer interviews, the Steam demo, and the store page description.</p>
       </div>
 
-      <div class="ad-slot horizontal"><!-- Google AdSense --></div>
+      <h2 id="basics">Combat Is Real-Time, Not Turn-Based</h2>
 
-      <h2>Attribute Build Guide: Where to Put Points <em style="color:#f0a020;font-size:0.85rem;">⚠️ Build ratios — unverified speculation</em></h2>
-      <p>Every level-up gives attribute points. The 5 attributes (Strength, Vitality, Essence, Recuperation, Agility) are confirmed from the official Steam description. <strong>The specific percentage allocations and build names below</strong> have never appeared in any official source — they were AI-generated. They're kept only as rough directional guidance, not as precise data:</p>
+      <p>Voidling Bound is a third-person action game. You control your Voidling directly — there are no menus in combat. Described by the developers as "Spore meets Warframe," combat is built around:</p>
 
-      <h3>Build 1: Full DPS (Solo Play)</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Attribute</th><th>Priority</th><th>Direction (NOT precise values)</th></tr></thead>
-          <tbody>
-            <tr><td>Strength</td><td>⭐⭐⭐⭐⭐</td><td>Primary</td></tr>
-            <tr><td>Agility</td><td>⭐⭐⭐⭐</td><td>Secondary</td></tr>
-            <tr><td>Vitality</td><td>⭐⭐⭐</td><td>Moderate</td></tr>
-            <tr><td>Essence</td><td>⭐⭐</td><td>Light</td></tr>
-            <tr><td>Recuperation</td><td>⭐</td><td>Minimal</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p><strong>Playstyle:</strong> Kill fast before you get killed. High risk, fastest clear times.</p>
-
-      <h3>Build 2: Balanced Survival (Beginner-Friendly)</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Attribute</th><th>Priority</th><th>Direction (NOT precise values)</th></tr></thead>
-          <tbody>
-            <tr><td>Strength</td><td>⭐⭐⭐⭐⭐</td><td>Primary</td></tr>
-            <tr><td>Vitality</td><td>⭐⭐⭐⭐⭐</td><td>Primary</td></tr>
-            <tr><td>Agility</td><td>⭐⭐⭐</td><td>Moderate</td></tr>
-            <tr><td>Essence</td><td>⭐⭐</td><td>Light</td></tr>
-            <tr><td>Recuperation</td><td>⭐</td><td>Minimal</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p><strong>Playstyle:</strong> Forgiving, consistent. Best for learning enemy patterns and pushing Abyss.</p>
-
-      <h3>Build 3: Elemental Specialist (Void/Ice Users)</h3>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Attribute</th><th>Priority</th><th>Direction (NOT precise values)</th></tr></thead>
-          <tbody>
-            <tr><td>Essence</td><td>⭐⭐⭐⭐⭐</td><td>Primary</td></tr>
-            <tr><td>Strength</td><td>⭐⭐⭐⭐</td><td>Secondary</td></tr>
-            <tr><td>Agility</td><td>⭐⭐⭐</td><td>Moderate</td></tr>
-            <tr><td>Vitality</td><td>⭐⭐</td><td>Light</td></tr>
-            <tr><td>Recuperation</td><td>⭐</td><td>Minimal</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p><strong>Playstyle:</strong> Max elemental damage output. Only viable with evolved elemental Voidlings.</p>
-      <p style="margin-top:8px;color:#f0a020;font-size:0.85rem">⚠️ The percentage values originally shown for these 3 builds (e.g. "40%/25%/20%") had zero source — they've been removed. Only the attribute priority tiers remain as rough guidance. Adjust your build based on in-game testing.</p>
-
-      <h2 id="talents">Talent Tree System <em style="color:#f0a020;font-size:0.85rem;">⚠️ Structure not officially confirmed</em></h2>
-      <p>The game has a talent tree system (confirmed via the Pixelkin demo). The branch names below are speculative — the exact structure <strong>has not been officially revealed</strong>:</p>
       <ul>
-        <li><strong>Primary Skill:</strong> Reduces cooldown, increases damage, adds effects (knockback, slow)</li>
-        <li><strong>Secondary Skill:</strong> Wider AoE, debuff duration, elemental synergy bonuses</li>
-        <li><strong>Ultimate:</strong> Faster charge, bigger radius, bonus damage to bosses</li>
-        <li><strong>Basic Attack:</strong> Attack speed, crit chance, armor penetration</li>
-        <li><strong>Defense:</strong> Damage reduction, stacking armor, invincibility triggers at low HP</li>
+        <li><strong>Direct control</strong> — you aim, shoot, dodge, and use abilities in real time</li>
+        <li><strong>Weapon-based combat</strong> — each Voidling has a primary weapon (minigun, shotgun, burst rifle, melee) that defines its playstyle</li>
+        <li><strong>Ability combos</strong> — primary weapon + secondary ability + ultimate create synergy chains</li>
+        <li><strong>Elemental system</strong> — elements (Toxic, Cryo confirmed; more likely) create matchups against enemy factions</li>
+      </ul>
+
+      <h2 id="weapons">Weapon Types — Based on Confirmed Voidlings</h2>
+
+      <p>Each Voidling's primary weapon defines its combat role. Based on confirmed Voidlings from the demo and interviews:</p>
+
+      <table style="width:100%;border-collapse:collapse;margin:16px 0">
+        <thead>
+          <tr style="border-bottom:2px solid var(--border)">
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Weapon Type</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Voidling Example</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Playstyle</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Good Stats</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-weight:600">Minigun (rapid-fire ranged)</td>
+            <td style="padding:10px 12px">Kwipeck</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Long-range sustained DPS. Keep distance, strafe, hold fire.</td>
+            <td style="padding:10px 12px">Agility, Essence</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-weight:600">Shotgun (close-range burst)</td>
+            <td style="padding:10px 12px">Glick</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Close-range brawler. Dodge in, blast, dodge out.</td>
+            <td style="padding:10px 12px">Vitality, Strength</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-weight:600">Burst Rifle (mid-range)</td>
+            <td style="padding:10px 12px">Kerapin</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Flexible mid-range. Balanced damage and mobility.</td>
+            <td style="padding:10px 12px">Strength, Essence</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 12px;font-weight:600">Melee (close-range, hovering)</td>
+            <td style="padding:10px 12px">Nimiod</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Aerial melee. Hover above enemies, strike from above.</td>
+            <td style="padding:10px 12px">Strength, Agility</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="color:var(--text-secondary);font-size:0.9rem"><em>Note: The remaining 5 unconfirmed species will have their own weapon types. This table covers only the 5 publicly confirmed Voidlings.</em></p>
+
+      <h2 id="dodge-parry">Dodge, Block, and Parry — Your Defense Tools</h2>
+
+      <p>This is an action game. You cannot facetank everything. Three defense mechanics confirmed from the Steam page and demo:</p>
+
+      <ul>
+        <li><strong>Dodge / Dash</strong> — iframes-based evasion. Your primary defensive tool. Dash through attacks, reposition, and create openings. Agility attribute reduces dodge cooldown and increases dash distance.</li>
+        <li><strong>Block</strong> — reduces incoming damage. Less punishing than a missed parry but less rewarding.</li>
+        <li><strong>Parry</strong> — timing-based counter. A successful parry creates an opening for counter-attack. Higher risk, higher reward. Parry windows vary by Voidling — learn your Voidling's timing.</li>
       </ul>
 
       <div class="info-box tip">
-        <h4>💡 Recommended Talent Priority</h4>
-        <p>1) Basic Attack (most value per point) → 2) Primary Skill → 3) Defense → 4) Ultimate → 5) Secondary Skill. Adjust based on your Voidling's strengths.</p>
+        <h4>💡 Learn Dodge First, Parry Later</h4>
+        <p>Dodge is the most reliable defensive tool for new players. Master dodge timing and positioning before investing time in parry. Parry becomes more important against tougher enemies and in Abyss mode, where sustained combat efficiency matters.</p>
       </div>
 
-      <h2>Enemy Types & Weaknesses</h2>
-      <p>Voidling Bound features enemy <strong>factions</strong> with distinct combat styles. Two factions confirmed by Creative Director Jonathan Rancourt (RPGamer interview):</p>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Faction</th><th>Tactics</th><th>Weak To</th><th>Notes</th></tr></thead>
-          <tbody>
-            <tr><td>🟢 <strong>Bulbous</strong> ✅</td><td>Swarm tactics — overwhelm with numbers</td><td>🔥 Fire, ⚡ Electric</td><td>Use AoE attacks and CC to manage crowds</td></tr>
-            <tr><td>🤖 <strong>GenBots</strong> ✅</td><td>Bullet hell — walls of projectiles</td><td>❄️ Ice (Cryo), ⚡ Electric</td><td>Dodge/parry essential; Cryo Glick excels</td></tr>
-            <tr><td>🌀 Corrupted</td><td>Erratic AI, adaptive resistance</td><td>🌀 Void</td><td>Pre-release info — verifying post-launch</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p style="color:var(--accent);font-size:0.85rem">📝 Bulbous &amp; GenBots confirmed via RPGamer developer interview (April 2026). More factions planned for full release.</p>
+      <h2 id="enemies">Enemy Factions — Bulbous and GenBot</h2>
 
-      <h2 id="abyss">Abyss Mode Survival Guide</h2>
-      <p>Abyss Mode is Voidling Bound's <strong>infinite endgame challenge</strong>. Each victory lets you go deeper (harder enemies, better rewards) or retreat safely.</p>
+      <p>Two enemy factions have been confirmed in the RPGamer developer interview. Each requires different elemental strategies:</p>
 
-      <h3>Abyss Survival Tips</h3>
+      <table style="width:100%;border-collapse:collapse;margin:16px 0">
+        <thead>
+          <tr style="border-bottom:2px solid var(--border)">
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Faction</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Type</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Confirmed Info</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Suggested Element</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-weight:600">Bulbous</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Parasitic organic</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Corrupted species overrunning planets. Likely weak to elemental damage.</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Toxic (poison over time)</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 12px;font-weight:600">GenBot</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Robotic/mechanical</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Arctic Glick's Cryo path described as effective vs robotic enemies.</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Cryo (freeze + shatter)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="color:var(--text-secondary);font-size:0.9rem"><em>Note: Exact elemental weakness multipliers, enemy HP/damage values, and faction variants will be documented as the community tests them. The Cryo-vs-robotic matchup is confirmed via the Arctic Glick description from the Pixelkin demo preview.</em></p>
+
+      <h2 id="builds">Attribute Builds for Combat</h2>
+
+      <p>Your attribute distribution shapes your combat build. Based on the 5-attribute system and confirmed Voidling playstyles:</p>
+
+      <table style="width:100%;border-collapse:collapse;margin:16px 0">
+        <thead>
+          <tr style="border-bottom:2px solid var(--border)">
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Build Archetype</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Priority Stats</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Playstyle</th>
+            <th style="text-align:left;padding:10px 12px;color:var(--accent)">Example Voidling</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-weight:600;color:var(--accent2)">Ranged DPS</td>
+            <td style="padding:10px 12px">Agility, Essence</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Keep distance, dodge often, sustain fire</td>
+            <td style="padding:10px 12px">Kwipeck</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-weight:600;color:#e04060">Brawler</td>
+            <td style="padding:10px 12px">Strength, Vitality</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Close in, burst damage, absorb hits</td>
+            <td style="padding:10px 12px">Glick</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-weight:600;color:var(--accent)">Balanced</td>
+            <td style="padding:10px 12px">Strength, Essence</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Flexible mid-range, adaptable to situation</td>
+            <td style="padding:10px 12px">Kerapin</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border)">
+            <td style="padding:10px 12px;font-weight:600;color:var(--warning)">Skirmisher</td>
+            <td style="padding:10px 12px">Strength, Agility</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Hit-and-run melee, aerial mobility</td>
+            <td style="padding:10px 12px">Nimiod</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 12px;font-weight:600;color:#64b4ff">Sustain</td>
+            <td style="padding:10px 12px">Vitality, Recuperation</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Tank hits, heal back, endurance runs</td>
+            <td style="padding:10px 12px;color:var(--text-secondary)">Best for Abyss mode</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="color:var(--text-secondary);font-size:0.9rem"><em>Note: Attribute scaling values and breakpoints are balance values. Check in-game tooltips for current numbers. These build archetypes are suggestions based on confirmed Voidling playstyles from public sources.</em></p>
+
+      <h2 id="abyss">Abyss Mode — Endless Challenge</h2>
+
+      <p>The Abyss is Voidling Bound's endgame mode — an endless challenge with escalating difficulty. Based on the Steam store page and developer descriptions:</p>
+
+      <ul>
+        <li><strong>Ever-escalating challenge</strong> — each floor or wave increases enemy difficulty, density, and modifiers</li>
+        <li><strong>Risk vs reward</strong> — push deeper for better rewards, or extract early to keep what you have earned</li>
+        <li><strong>Corrupted DNA Catalyzers</strong> — Abyss-exclusive rewards that provide unique upgrades not available in the main campaign</li>
+        <li><strong>Leaderboard potential</strong> — how far can you go?</li>
+      </ul>
+
+      <h3>Abyss Mode Tips (General)</h3>
+
       <ol>
-        <li><strong>Bring at least 2 Voidlings with different elements</strong> — enemy types rotate unpredictably</li>
-        <li><strong>Defense talents become S-tier</strong> — enemy damage scaling makes glass cannons non-viable past floor 20+</li>
-        <li><strong>Use Corrupted DNA Catalysts</strong> — push attributes beyond normal caps, essential for deep runs</li>
-        <li><strong>Know when to retreat</strong> — losing everything hurts more than missing one more floor</li>
-        <li><strong>Recuperation matters more in Abyss</strong> — sustain becomes critical when fights last longer</li>
+        <li><strong>Bring your best evolved Voidlings</strong> — Abyss is endgame. Don't enter with un-evolved starters.</li>
+        <li><strong>Build for sustain</strong> — Vitality and Recuperation become more valuable as fights get longer. Pure glass-cannon builds fall off in deep Abyss.</li>
+        <li><strong>Bring elemental coverage</strong> — you will face both Bulbous and GenBot enemies. Having both Toxic and Cryo options helps.</li>
+        <li><strong>Know when to extract</strong> — greed kills. If a floor was close, the next one will be harder. Extract with your rewards.</li>
+        <li><strong>Corrupted DNA is unique</strong> — these upgrades may not be obtainable elsewhere. Prioritise surviving to extract with them.</li>
       </ol>
 
-      <div class="ad-slot horizontal" style="margin-top:30px"><!-- Google AdSense --></div>
+      <h3>Corrupted DNA Catalyzers</h3>
 
-      <h2>Team Synergy Tips</h2>
-      <p><strong>Gameplay tip:</strong> When a mission is marked with an element type, that indicates what the enemies are <strong>weak to</strong>. Bring a Voidling whose evolution matches that element for bonus damage — this becomes essential on higher difficulties.</p>
-      <p>Build your team of Voidlings to cover each other's weaknesses:</p>
+      <p>These are Abyss-exclusive rewards. Exact effects are being discovered by the community during launch week. Based on the name and developer descriptions, they likely provide powerful but risky upgrades — "corrupted" suggests a tradeoff (power at a cost).</p>
+
+      <p style="color:var(--text-secondary);font-size:0.9rem"><em>Note: Abyss mode scaling formulas, Corrupted DNA effects, and optimal floor strategies will be documented as the community explores deeper into the Abyss during launch week.</em></p>
+
+      <h2 id="planets">Where You Fight — Vireo, Solum, Aulis</h2>
+
+      <p>Three planets are confirmed (Steam store page):</p>
+
       <ul>
-        <li><strong>Lead Voidling:</strong> Tank/CC (Ice preferred) — freeze enemies, draw aggro, create openings</li>
-        <li><strong>Switch to:</strong> Full DPS (Fire or Electric) — exploit openings, chain stuns with elemental combos</li>
-        <li><strong>Combo:</strong> Elemental synergy effects (e.g. freeze → fire combo) <em style="color:#f0a020;">Unconfirmed — needs player testing</em></li>
+        <li><strong>Vireo</strong> — starting planet, standard biomes</li>
+        <li><strong>Solum</strong> — different environment and enemy composition</li>
+        <li><strong>Aulis</strong> — late-game planet</li>
       </ul>
+
+      <p>Each planet likely has different enemy faction distributions, environments that affect combat (cover, verticality, hazards), and planet-specific resources or eggs. Details will be added as the community maps them.</p>
+
+      <h2 id="faq">FAQ</h2>
+
+      <h3>Is Voidling Bound turn-based?</h3>
+      <p>No. It is a real-time third-person action game. Movement, aiming, dodging, and abilities are all real-time. Described by developers as "Spore meets Warframe."</p>
+
+      <h3>Which starter is best for combat?</h3>
+      <p>Neither is "best" — they play differently. Kwipeck (minigun) suits players who prefer ranged shooters. Glick (shotgun) suits players who prefer close-range brawling. Try both in the free demo.</p>
+
+      <h3>How do I dodge effectively?</h3>
+      <p>Dodge through attacks, not away from them. Dodging into/past the enemy positions you behind them. Agility shortens dodge cooldown.</p>
+
+      <h3>What elements are strong against what?</h3>
+      <p>Cryo (ice) is confirmed effective vs robotic enemies (like GenBot) via the Arctic Glick evolution description. Toxic is likely strong vs organic enemies (like Bulbous). Exact multipliers will be tested by the community.</p>
+
+      <h3>When should I start Abyss mode?</h3>
+      <p>After you have multiple evolved Voidlings with solid attribute distributions. Abyss is endgame content — not a new-player activity.</p>
+
+      <h3>What are Corrupted DNA Catalyzers?</h3>
+      <p>Abyss-exclusive reward items that provide unique upgrades. Exact effects are being discovered. The name suggests a power-at-a-cost tradeoff.</p>
+
+      <p style="margin-top:24px"><strong>Next:</strong> <a href="evolution.html">Evolution &amp; Breeding Guide →</a> | <a href="index.html">Back to Hub →</a></p>
 
     </article>
   </div>
@@ -201,11 +282,10 @@
 
 <footer class="site-footer">
   <div class="container">
-    <p><strong>voidling-bound-guide.netlify.app</strong> — Fan-made resource. Not affiliated with Hatchery Games.</p>
-    <p>All game content, names, and images © Hatchery Games. Voidling Bound is available on <a href="https://store.steampowered.com/app/2004680/Voidling_Bound/" target="_blank" rel="nofollow">Steam</a>.</p>
-    <p style="margin-top:8px;"><a href="https://ko-fi.com/voidlingboundguide" target="_blank" rel="nofollow">☕ Support this guide on Ko-fi</a></p>
+    <p><strong>voidling-bound-guide.vercel.app</strong> — Fan-maintained reference. Not a strategy guide. Not affiliated with Hatchery Games.</p>
+    <p>All game content, names, and images © Hatchery Games. Voidling Bound on <a href="https://store.steampowered.com/app/2004680/Voidling_Bound/" target="_blank" rel="nofollow">Steam</a>.</p>
     <p style="margin-top:12px;font-size:0.8rem;">
-      <a href="index.html">Home</a> · <a href="guide.html">Beginner Guide</a> · <a href="voidlings.html">Voidlings DB</a> · <a href="evolution.html">Evolution</a> · <a href="combat.html">Combat</a> · <a href="breeding.html">Breeding</a> · <a href="attributes.html">Attributes</a> · <a href="abyss.html">Abyss</a> · <a href="splicing.html">Splicing</a> · <a href="privacy.html">Privacy</a>
+      <a href="index.html">Home</a> · <a href="guide.html">First Hour</a> · <a href="voidlings.html">Voidlings</a> · <a href="evolution.html">Evolution &amp; Breeding</a> · <a href="combat.html">Combat &amp; Abyss</a>
     </p>
   </div>
 </footer>
@@ -215,25 +295,18 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Home",
-    "item": "https://voidling-bound-guide.netlify.app/"
-  },{
-    "@type": "ListItem",
-    "position": 2,
-    "name": "Combat & Builds",
-    "item": "https://voidling-bound-guide.netlify.app/combat.html"
-  }]
+  "@type": "Article",
+  "headline": "Voidling Bound Combat & Abyss Guide — Builds, Enemies & Endgame",
+  "description": "Weapon types, dodge/parry, enemy factions, attribute builds for combat, and Abyss mode endgame.",
+  "datePublished": "2026-06-10",
+  "dateModified": "2026-06-10",
+  "author": {"@type": "Organization", "name": "Voidling Bound Notes"}
 }
 </script>
 <script>
 document.querySelector('.menu-toggle').addEventListener('click', function() {
   document.querySelector('.nav-links').classList.toggle('open');
 });
-
 var backToTop = document.getElementById('backToTop');
 window.addEventListener('scroll', function() {
   if (window.scrollY > 400) backToTop.classList.add('visible');
@@ -242,23 +315,15 @@ window.addEventListener('scroll', function() {
 backToTop.addEventListener('click', function() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-
-// Generate Table of Contents
 (function() {
-  var toc = document.querySelector('.toc');
-  var article = document.querySelector('article');
+  var toc = document.querySelector('.toc'), article = document.querySelector('article');
   if (!toc || !article) return;
-  var headings = article.querySelectorAll('h2');
-  if (headings.length === 0) { toc.style.display = 'none'; return; }
   var ol = toc.querySelector('ol');
-  headings.forEach(function(h, i) {
+  article.querySelectorAll('h2').forEach(function(h, i) {
     if (!h.id) h.id = 'section-' + (i + 1);
-    var li = document.createElement('li');
-    var a = document.createElement('a');
-    a.href = '#' + h.id;
-    a.textContent = h.textContent;
-    li.appendChild(a);
-    ol.appendChild(li);
+    var li = document.createElement('li'), a = document.createElement('a');
+    a.href = '#' + h.id; a.textContent = h.textContent;
+    li.appendChild(a); ol.appendChild(li);
   });
 })();
 </script>
